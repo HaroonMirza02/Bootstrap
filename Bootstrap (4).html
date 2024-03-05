@@ -1,0 +1,89 @@
+<html>
+<head>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    
+    <title>www.k213821.com/Task2</title>
+    <style>
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .title {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .table {
+            margin-bottom: 20px;
+        }
+
+        .table td, .table th {
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>To Do App</h1>
+        </div>
+        <div class="input-group">
+            <input type="text" class="form-control" id="task-input" placeholder="Enter a task here">
+            <div class="input-group-append">
+                <button class="btn btn-primary" id="save-button">SAVE</button>
+                <button class="btn btn-warning" id="get-button">GET TASKS</button>
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">No.</th>
+                        <th scope="col">Todo item</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="task-table">
+                    <tr>
+                        <td>1</td>
+                        <td>Buy groceries for next week</td>
+                        <td>In progress</td>
+                        <td>
+                            <button class="btn btn-danger">DELETE</button>
+                            <button class="btn btn-success">FINISHED</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Renew car insurance</td>
+                        <td>In progress</td>
+                        <td>
+                            <button class="btn btn-danger">DELETE</button>
+                            <button class="btn btn-success">FINISHED</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Sign up for online course</td>
+                        <td>In progress</td>
+                        <td>
+                            <button class="btn btn-danger">DELETE</button>
+                            <button class="btn btn-success">FINISHED</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- Bootstrap CDN -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</body>
+</html>

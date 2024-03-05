@@ -1,0 +1,189 @@
+<html>
+<head>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>www.k213821.com/Task3</title>
+    <style>
+        .form-1 {
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 10px;
+        }
+        .form-2 {
+             position: relative;
+             padding: 20px;
+             margin: 10px;
+             color: white;
+             overflow: hidden;
+             height: 430px;
+        }
+
+        .form-2::before {
+             content: '';
+             position: absolute;
+             top: 0;
+             left: 0;
+             width: 100%;
+             height: 100%;
+             background-image: url('https://media.istockphoto.com/id/855799640/photo/dairy-star-trek-in-the-winter-woods.jpg?s=612x612&w=0&k=20&c=SFjLjyuuO7ycNlKSLYWT4J-Nj1WpSpHY2ZOqKrZhlOg='); 
+             background-size: cover;
+             background-position: center;
+             opacity: 0.5; 
+             z-index: -1; 
+        }
+
+        .form-2 input,
+        .form-2 textarea {
+             background-color: transparent;
+             border: 1px solid #ccc;
+             color: rgb(0, 0, 0);
+             z-index: 1; 
+        }
+
+
+        .form-3 {
+
+            border: 1px solid #0d8bd9;
+            padding: 20px;
+            margin: 10px;
+            color: white;
+        }
+
+        .form-3 input, .form-3 textarea {
+            background-color: white;
+            border: 1px solid #ccc;
+            color: white;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .social-icons a {
+            margin: 5px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .forrm{
+            background-color: #3282B8;color: white;margin-left: -20;margin-top: -20;padding-top: 10px;padding-bottom: 10px;padding-right: 0px;margin-right: -20;
+        }
+
+        .fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding: 10px 20px 10px 20px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  padding: 10px 20px 10px 20px;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+  padding: 10px 20px 10px 20px;
+}
+.btn-primary {
+        border-radius: 30px; 
+        width: 300px;
+    }
+    .btn-success{
+        border-radius: 30px;
+        width: 300px;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>Contact form</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-1">
+                    <h2>Contact Us</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Your email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Your password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter password">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your message</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Enter message"></textarea>
+                        </div>
+                        <div class="form-group text-center">
+                        <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-google mb-3"></a>
+                    </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-2">
+                    <h2><span style="color: black;">Contact</span> <span style="color: green;">Us</span></h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Your name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter name">
+                        </div>
+                        <div class="form-group">
+                            <label for="mail">Your mail</label>
+                            <input type="email" class="form-control" id="mail" placeholder="Enter mail">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your message</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Enter message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-3">
+                    <div class="forrm text-center">
+                        <h2>Contact us</h2>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-google mb-3"></a>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Your name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter name">
+                        </div>
+                        <div class="form-group">
+                            <label for="mail">Your mail</label>
+                            <input type="email" class="form-control" id="mail" placeholder="Enter mail">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your message</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Enter message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary text-center">SEND</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap CDN -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+</body>
+</html>
